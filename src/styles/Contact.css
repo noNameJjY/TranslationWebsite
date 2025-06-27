@@ -1,0 +1,123 @@
+/* Contact page styles */
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contact-info {
+    background: #e8f3e8;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0 3px 6px rgba(44, 85, 48, 0.1);
+}
+
+.contact-methods, .business-hours {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c5530;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #2c5530;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #446850;
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+.contact-info strong {
+    color: #2c5530;
+    margin-right: 10px;
+}
+
+.social-media-item {
+    margin: 20px 0;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 20px 35px;
+}
+
+.qr-code {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #98c9a3;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.qr-code:hover {
+    transform: scale(1.05);
+}
+
+.qr-hint {
+    color: #446850;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code-large {
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height: 70vh;
+    border-radius: 8px;
+}
+
+.close-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #98c9a3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: #7ab587;
+}

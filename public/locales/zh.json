@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "西雅图翻译💫",
+    "navigation": {
+      "home": "首页",
+      "articles": "绿卡/入籍面谈资讯",
+      "services": "提供服务",
+      "contact": "联系方式"
+    }
+  },
+  "footer": {
+    "copyright": "© 2023 移民服务网站. 保留所有权利。",
+    "additionalLinks": "更多链接"
+  },
+  "home": {
+    "contactInfo": {
+      "wechat": "微信: your_wechat_id",
+      "email": "邮箱: your_email@example.com",
+      "rednote": "RedNote: your_rednote_id"
+    },
+    "services": {
+      "title": "提供的服务",
+      "list": [
+        "面试翻译",
+        "面试前培训"
+      ]
+    }
+  },
+  "articles": {
+    "title": "文章列表",
+    "metadata": {
+      "postDate": "发布日期",
+      "viewCount": "查看次数"
+    }
+  },
+  "services": {
+    "title": "服务详情",
+    "description": "我们提供专业的移民面试翻译和培训服务，帮助您顺利通过面试。"
+  },
+  "contact": {
+    "title": "联系方式",
+    "description": "如需更多信息，请通过以下方式联系我们。"
+  }
+}
