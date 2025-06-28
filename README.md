@@ -1,7 +1,7 @@
 # Immigration Services Website
 
 ## Overview
-This project is a website designed to provide information and services related to immigration, specifically focusing on green card and citizenship interview resources. The website is presented in Chinese and features a simple and calming theme.
+This project is a website designed to provide information and services related to interpretation in the immigratation setting. The website is presented in Chinese.
 
 ## Features
 - **绿卡/入籍面谈资讯**: Clickable tiles that reveal articles with metadata.

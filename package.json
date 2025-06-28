@@ -1,7 +1,7 @@
 {
   "name": "immigration-services-website",
   "version": "1.0.0",
-  "description": "A website providing information and services related to immigration interviews.",
+  "description": "A website providing information and services related to interpretation interviews.",
   "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
@@ -24,10 +24,11 @@
   },
   "keywords": [
     "immigration",
-    "services",
-    "website"
+    "interpretation",
+    "面谈翻译",
+    "移民翻译"
   ],
-  "author": "Your Name",
+  "author": "NoName",
   "license": "MIT",
   "browserslist": {
     "production": [
@@ -39,6 +40,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "homepage": "https://winfanyi.com"
   }
 }
