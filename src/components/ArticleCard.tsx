@@ -6,11 +6,13 @@ interface ArticleCardProps {
     title: string;
     date: string;
     content: string;
+    link?: string;
 }
 
-const ArticleCard: React.FC<ArticleCardProps> = ({ id, title, date, content }) => {
+const ArticleCard: React.FC<ArticleCardProps> = ({ id, title, date, content, link }) => {
     const isXiaohongshu = id === 'all-on-xiaohongshu';
     const linkPath =
+        link ? link :
         id === 'green-card-process'
             ? '/articles/green-card-process'
             : id === 'citizenship-interview'

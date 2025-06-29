@@ -5,6 +5,13 @@ import ArticleCard from '../components/ArticleCard';
 
 const initialArticles = [
     {
+        id: 'interview-process-summary',
+        title: '超全庇护面谈流程总结',
+        date: '2025-06-28',
+        content: '根据我的经验给大家聊聊整个面谈大概会分成几个板块...（点击查看全文）',
+        link: '/articles/interview-process-summary',
+    },
+    {
         id: 'green-card-process',
         title: '聊聊USCIS 婚姻面谈 - 原帖在小红书',
         date: '2025-06-24',
@@ -27,7 +34,7 @@ const initialArticles = [
         title: '小红书过往信息',
         date: '2025-06-27',
         content: '点击查看小红书过往信息图片集。',
-    }
+    },
 ];
 
 const Articles: React.FC = () => {
@@ -50,6 +57,7 @@ const Articles: React.FC = () => {
                             title={article.title}
                             date={article.date}
                             content={article.content}
+                            link={article.link}
                         />
                     ))}
                 </div>

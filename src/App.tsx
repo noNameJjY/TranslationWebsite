@@ -11,6 +11,7 @@ import ArticleGreenCardProcess from './pages/articles/ArticleGreenCardProcess';
 import ArticleCitizenshipInterview from './pages/articles/ArticleCitizenshipInterview';
 import ArticleCommonQuestions from './pages/articles/ArticleCommonQuestions';
 import ArticleRednoteGallery from './pages/articles/ArticleRednoteGallery';
+import ArticleInterviewProcessSummary from './pages/articles/ArticleInterviewProcessSummary';
 
 const App: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const App: React.FC = () => {
       <Route path="/articles/citizenship-interview" element={<ArticleCitizenshipInterview />} />
       <Route path="/articles/common-questions" element={<ArticleCommonQuestions />} />
       <Route path="/articles/rednote-gallery" element={<ArticleRednoteGallery />} />
+      <Route path="/articles/interview-process-summary" element={<ArticleInterviewProcessSummary />} />
     </Routes>
   );
 };
