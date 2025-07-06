@@ -12,6 +12,7 @@ import ArticleCitizenshipInterview from './pages/articles/ArticleCitizenshipInte
 import ArticleCommonQuestions from './pages/articles/ArticleCommonQuestions';
 import ArticleRednoteGallery from './pages/articles/ArticleRednoteGallery';
 import ArticleInterviewProcessSummary from './pages/articles/ArticleInterviewProcessSummary';
+import ArticleMarriageGreenCardInterview from './pages/articles/ArticleMarriageGreenCardInterview';
 
 const App: React.FC = () => {
   return (
@@ -28,6 +29,7 @@ const App: React.FC = () => {
       <Route path="/articles/common-questions" element={<ArticleCommonQuestions />} />
       <Route path="/articles/rednote-gallery" element={<ArticleRednoteGallery />} />
       <Route path="/articles/interview-process-summary" element={<ArticleInterviewProcessSummary />} />
+      <Route path="/articles/marriage-green-card-interview" element={<ArticleMarriageGreenCardInterview />} />
     </Routes>
   );
 };

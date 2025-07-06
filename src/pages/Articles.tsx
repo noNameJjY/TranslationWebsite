@@ -5,6 +5,13 @@ import ArticleCard from '../components/ArticleCard';
 
 const initialArticles = [
     {
+        id: 'marriage-green-card-interview',
+        title: '记录 7/3/25 婚绿面谈',
+        date: '2025-07-05',
+        content: '给大家提供1个婚绿数据点\n客人对我真的非常好，还特地给我带了咖啡和小点心☕️，超级感动...（点击查看全文）',
+        link: '/articles/marriage-green-card-interview'
+    },
+    {
         id: 'interview-process-summary',
         title: '超全庇护面谈流程总结',
         date: '2025-06-28',
