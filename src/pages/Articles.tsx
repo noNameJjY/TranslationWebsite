@@ -5,6 +5,13 @@ import ArticleCard from '../components/ArticleCard';
 
 const initialArticles = [
     {
+        id: 'marriage-green-card-interview-2',
+        title: '记录 7/3/25 又一场婚绿面谈',
+        date: '2025-07-05',
+        content: '再给大家提供1个婚绿数据点，和上篇是同一天面谈\n\n看评论...（点击查看全文）',
+        link: '/articles/marriage-green-card-interview-2'
+    },
+    {
         id: 'marriage-green-card-interview',
         title: '记录 7/3/25 婚绿面谈',
         date: '2025-07-05',
