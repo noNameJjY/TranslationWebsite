@@ -21,11 +21,11 @@ const Contact: React.FC = () => {
                             <strong>邮箱：</strong> wentranslate@gmail.com
                         </p>
                         <p>
-                            <strong>小红书（无法回私信）：</strong> 3814236872
+                            <strong>小红书号:西雅图翻译💫（无法回私信）/ 西雅图翻译💫 winfanyi：</strong> winnieaaaaa111 / 95650817554
                         </p>
                         <p>
                         欢迎浏览之前写的帖子
-                        因为平台问题用户名可能背出厂化设置，且无法回私信。如有不便，敬请谅解。
+                        因为平台问题，写的文章随时可能被下架，且大号：西雅图翻译💫 无法回私信。敬请谅解。
                         </p>
                         <div className="qr-code-container">
                             <img 
