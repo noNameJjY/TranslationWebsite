@@ -14,6 +14,7 @@ import ArticleRednoteGallery from './pages/articles/ArticleRednoteGallery';
 import ArticleInterviewProcessSummary from './pages/articles/ArticleInterviewProcessSummary';
 import ArticleMarriageGreenCardInterview from './pages/articles/ArticleMarriageGreenCardInterview';
 import ArticleMarriageGreenCardInterview2 from './pages/articles/ArticleMarriageGreenCardInterview2';
+import DS160FoiaTips from './pages/articles/ArticleDS160FoiaTips';
 
 const App: React.FC = () => {
   return (
@@ -32,6 +33,7 @@ const App: React.FC = () => {
       <Route path="/articles/interview-process-summary" element={<ArticleInterviewProcessSummary />} />
       <Route path="/articles/marriage-green-card-interview" element={<ArticleMarriageGreenCardInterview />} />
       <Route path="/articles/marriage-green-card-interview-2" element={<ArticleMarriageGreenCardInterview2 />} />
+      <Route path="/articles/ds160-foia-tips" element={<DS160FoiaTips />} />
     </Routes>
   );
 };

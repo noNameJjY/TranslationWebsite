@@ -5,6 +5,13 @@ import ArticleCard from '../components/ArticleCard';
 
 const initialArticles = [
     {
+        id: 'ds160-foia-tips',
+        title: '面谈前 DS160 丢失与 FOIA 资料获取经验分享',
+        date: '2025-07-12',
+        content: '我碰到的一个常见问题是面谈前找到我（特别是庇护）...（点击查看全文）',
+        link: '/articles/ds160-foia-tips'
+    },
+    {
         id: 'marriage-green-card-interview-2',
         title: '记录 7/3/25 又一场婚绿面谈',
         date: '2025-07-08',
