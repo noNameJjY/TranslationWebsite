@@ -6,7 +6,7 @@ import ArticleCard from '../components/ArticleCard';
 const initialArticles = [
     {
         id: 'ds160-foia-tips',
-        title: '面谈前 DS160 丢失与 FOIA 资料获取经验分享',
+        title: '提交给 USCIS 的文件自己找不到了怎么办',
         date: '2025-07-12',
         content: '我碰到的一个常见问题是面谈前找到我（特别是庇护）...（点击查看全文）',
         link: '/articles/ds160-foia-tips'
