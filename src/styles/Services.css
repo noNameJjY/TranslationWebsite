@@ -49,7 +49,9 @@ main {
 
 h1 {
     text-align: center;
-    color: #2c5530;
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: -0.5px;
     margin-bottom: 40px;
     font-size: 2.5rem;
 }

@@ -15,7 +15,7 @@ const Services: React.FC = () => {
                     <h2>联系方式</h2>
                     <div className="contact-grid">
                         <p><strong>微信：</strong>winnieaaaaa111</p>
-                        <p><strong>邮箱：</strong>wentranslate@gmail.com</p>
+                        <p><strong>邮箱：</strong>winfanyi1@gmail.com</p>
                         <p><strong>小红书号：</strong>95650817554 或者 winnieaaaaa111</p>
                     </div>
                 </section>

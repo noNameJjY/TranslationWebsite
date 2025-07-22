@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ContactInfo from '../components/ContactInfo';
 import ServiceCard from '../components/ServiceCard';
 import '../styles/Home.css';
 
@@ -10,13 +11,9 @@ const Home: React.FC = () => {
         <div className="home">
             <Header />
             <main>
-                <h1>诚信，负责，高效 - 西雅图翻译💫为您提供专业服务</h1>
-                <section className="contact-info">
-                    <h2>联系方式</h2>
-                    <p><strong>微信：</strong>winnieaaaaa111</p>
-                    <p><strong>邮箱：</strong>wentranslate@gmail.com</p>
-                    <p><strong>小红书号：</strong>95650817554 或者 winnieaaaaa111</p>
-                </section>
+                <h1>诚信，负责，高效 - winfanyi为您提供专业翻译服务</h1>
+                <p>主营西雅图地区翻译，也可以去到其他城市为您服务！</p>
+                <ContactInfo showAdditionalInfo={true} />
                 <section id="services" className="services">
                     <h2>提供服务</h2>
                     <div className="service-list">

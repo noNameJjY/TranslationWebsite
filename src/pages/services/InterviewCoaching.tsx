@@ -40,7 +40,7 @@ const InterviewCoaching: React.FC = () => {
                         <h2>预约咨询</h2>
                         <div className="contact-info-preview">
                             <p><strong>微信：</strong>winnieaaaaa111</p>
-                            <p><strong>邮箱：</strong>wentranslate@gmail.com</p>
+                            <p><strong>邮箱：</strong>winfanyi1@gmail.com</p>
                         </div>
                     </section>
                 </div>

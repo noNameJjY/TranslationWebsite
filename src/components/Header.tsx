@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <header>
             <div className="header-content">
                 <Link to="/" className="header-title">
-                    <h1>西雅图翻译💫服务</h1>
+                    <h1>winfanyi</h1>
                 </Link>
                 <Navigation />
             </div>
