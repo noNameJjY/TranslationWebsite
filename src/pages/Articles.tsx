@@ -5,6 +5,13 @@ import ArticleCard from '../components/ArticleCard';
 
 const initialArticles = [
     {
+        id: 'asylum-interview-detailed',
+        title: 'Youtube Video - 只讲干货 01 真实庇护面谈过程',
+        date: '2025-07-22',
+        content: '你是怎么填写表格和自述的？ （重点是要看是不是你自己写的自述，以及你在在写完之后有没有自己读过，面谈官要知道你在整个案件申请过程中有没有亲自参与，参与了多少）...（点击查看全文）',
+        link: '/articles/asylum-interview-detailed'
+    },
+    {
         id: 'ds160-foia-tips',
         title: '提交给 USCIS 的文件自己找不到了怎么办',
         date: '2025-07-12',

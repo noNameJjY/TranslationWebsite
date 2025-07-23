@@ -15,6 +15,7 @@ import ArticleInterviewProcessSummary from './pages/articles/ArticleInterviewPro
 import ArticleMarriageGreenCardInterview from './pages/articles/ArticleMarriageGreenCardInterview';
 import ArticleMarriageGreenCardInterview2 from './pages/articles/ArticleMarriageGreenCardInterview2';
 import DS160FoiaTips from './pages/articles/ArticleDS160FoiaTips';
+import AsylumInterviewDetailed from './pages/articles/ArticleAsylumInterviewDetailed';
 
 const App: React.FC = () => {
   return (
@@ -34,6 +35,7 @@ const App: React.FC = () => {
       <Route path="/articles/marriage-green-card-interview" element={<ArticleMarriageGreenCardInterview />} />
       <Route path="/articles/marriage-green-card-interview-2" element={<ArticleMarriageGreenCardInterview2 />} />
       <Route path="/articles/ds160-foia-tips" element={<DS160FoiaTips />} />
+      <Route path="/articles/asylum-interview-detailed" element={<AsylumInterviewDetailed />} />
     </Routes>
   );
 };
