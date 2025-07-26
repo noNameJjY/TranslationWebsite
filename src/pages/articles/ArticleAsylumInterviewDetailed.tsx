@@ -8,7 +8,7 @@ const AsylumInterviewDetailed: React.FC = () => (
     <Header />
     <main>
       <h1>只讲干货 01 真实庇护面谈过程</h1>
-      <h2>youtube link: </h2>
+      <h2><a href="https://youtu.be/aNpfnGoTYSY" target="_blank" rel="noopener noreferrer">YouTube 视频</a></h2>
       <h2>进入 USCIS 大楼</h2>
       <p>最近 guard 都要看 ID (给她看驾照就可以，不是一定要 real ID，没有的话护照也可以）</p>
       <p>然后我们要过安检</p>
