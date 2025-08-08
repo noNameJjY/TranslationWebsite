@@ -47,6 +47,6 @@
   },
   "homepage": "https://winfanyi.com",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
